@@ -10,10 +10,11 @@ Hence why I named the project `project-coinbase`
 1. React ( required )
 2. @mui ( required )
 3. @mui-icons ( if needed )
-4. axios
-5. Postman
-6. Airbnb ESLint Style
-7. Vercel* ( for Deployment and CI / CD ) *if I have enough time
+4. TailwindCSS
+5. axios
+6. Postman
+7. ESLint Airbnb and Prettier Configuration
+8. Vercel* ( for Deployment and CI / CD ) *if I have enough time
 
 #### Additional Tool ( used outside coding ):
 1. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](www.blank.com)
