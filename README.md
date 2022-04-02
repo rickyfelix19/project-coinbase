@@ -14,4 +14,7 @@ Hence why I named the project `project-coinbase`
 5. Postman
 6. Airbnb ESLint Style
 7. Vercel* ( for Deployment and CI / CD ) *if I have enough time
-8. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](www.blank.com)
+
+#### Additional Tool ( used outside coding ):
+1. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](www.blank.com)
+2. GitHub Project's Kanban Board ( for Task Management ), you can check the board [here](https://github.com/rickyfelix19/project-coinbase/projects/1)
