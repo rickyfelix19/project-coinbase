@@ -1,6 +1,5 @@
 # project-coinbase
 
-
 ```the name coinbase is not related to any company or any existing party. The idea of naming this project coinbase is because the data needed to be shown are cyrptocurrency and one of the largest crypto in the market is Bitcoin. Hence why I named the project project-coinbase```
 
 ---
@@ -13,11 +12,11 @@
 4. axios
 5. Postman
 6. Airbnb ESLint Style
-7. Vercel* ( if enough time )
+7. Vercel ( if enough time )
 
 #### Additional Tool ( used outside coding ):
 
-1. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](www.blank.com)
+1. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](https://www.figma.com/file/qPXOFeTqLm5U5rfEQDHbsY/TableBoard?node-id=0%3A1)
 2. GitHub Project's Kanban Board ( for Task Management ), you can check the board [here](https://github.com/rickyfelix19/project-coinbase/projects/1)
 
 #### Timeline
