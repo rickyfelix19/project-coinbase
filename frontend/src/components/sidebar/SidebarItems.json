@@ -1,0 +1,79 @@
+{
+  "Sidebar": {
+    "menu1": [
+      {
+        "title": "Coins",
+        "item": [
+          "Market Cap Rank",
+          "Recently Added",
+          "Categories",
+          "Discover",
+          "Large Movers",
+          "High Volumes"
+        ],
+        "submenu1": [
+          {
+            "title": "Derivatives",
+            "item": ["Large Movers", "High Volumes"]
+          }
+        ]
+      },
+      {
+        "menu2": [
+          {
+            "title": "Exchanges",
+            "item": ["Spot", "DEX", "Derivatives"]
+          }
+        ]
+      },
+      {
+        "menu3": [
+          {
+            "title": "NFT",
+            "item": ["NFT Floor Price", "NFT Related Coins"]
+          }
+        ]
+      },
+      {
+        "menu4": [
+          {
+            "title": "Publications",
+            "item": ["Newsletter", "Crypto Reports", "Podcast", "Blog"],
+            "submenu1": [
+              {
+                "title": "Books",
+                "item": ["How to NFT", "How to Bitcoin", "How to DeFi"]
+              }
+            ],
+            "submenu2": [
+              {
+                "title": "Guides",
+                "item": ["CoinGecko Buzz", "Glossary"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "menu5": [
+          {
+            "title": "Resources",
+            "item": [
+              "Earn Crypto",
+              "Yield Farming",
+              "Compare Coins",
+              "Explore All Coins",
+              "Bitcoin Halving"
+            ],
+            "submenu1": [
+              {
+                "title": "Public Companies Treasury",
+                "item": ["Bitcoin Treasury", "Ethereum Treasury"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
