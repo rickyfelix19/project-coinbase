@@ -40,4 +40,4 @@ jobs:
           vercel-args: '--prod' #Optional
           vercel-org-id: 0OYYiGKCLlzbBL06WTKRLWC0  #Required
           vercel-project-id: prj_ac6vpw3ZJ6Li2paiTZafxVJyW9Q5 #Required 
-          working-directory: ./frontend/
+          working-directory: ../../frontend/
