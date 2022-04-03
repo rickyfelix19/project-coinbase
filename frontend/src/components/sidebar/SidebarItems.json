@@ -30,9 +30,7 @@
       "title": "Publications",
       "items": ["Newsletter", "Crypto Reports", "Podcast", "Blog"],
       "subtitle": "Books",
-      "subitems": ["How to NFT", "How to Bitcoin", "How to DeFi"],
-      "subtitle2": "Guides",
-      "subitems2": ["CoinGecko Buzz", "Glossary"]
+      "subitems": ["How to NFT", "How to Bitcoin", "How to DeFi"]
     },
     {
       "id": "5",

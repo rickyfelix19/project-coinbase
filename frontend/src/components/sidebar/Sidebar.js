@@ -28,12 +28,29 @@ function Sidebar() {
 
         <SidebarContent>
           <Menu>
-            {SidebarDB.Sidebar.map((data, index) => {
+            {SidebarDB.Sidebar.map((data) => {
               //   let x = 0;
+              //   console.log(data.items);
+              //   console.log(data.subitems);
               return (
-                <div key={index}>
+                <div>
                   <SubMenu title={data.title}>
-                    <MenuItem>{data.items}</MenuItem>
+                    {data.items.map((itemName, index) => (
+                      <MenuItem key={index}>{itemName}</MenuItem>
+                    ))}
+                    {/* <SubMenu title={data.subtitle}>
+                      {data.subitems.map((subItemName, i) => (
+                        <div>
+                          {subItemName !== undefined || null ? (
+                            <>
+                              <MenuItem key={i}>{subItemName}</MenuItem>
+                            </>
+                          ) : (
+                            <></>
+                          )}
+                        </div>
+                      ))}
+                    </SubMenu> */}
                   </SubMenu>
                 </div>
               );
@@ -70,7 +87,7 @@ function Sidebar() {
 
         </SidebarContent> */}
 
-        <SidebarFooter>Ricky Felix</SidebarFooter>
+        <SidebarFooter>"Account.Name"</SidebarFooter>
       </ProSidebar>
     </div>
   );
