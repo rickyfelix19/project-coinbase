@@ -11,9 +11,8 @@ import {
   MenuItem
 } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
-import SidebarStructure from './SidebarStructure';
 
-let sidebarLength = SidebarDB.Sidebar.length;
+// let sidebarLength = SidebarDB.Sidebar.length;
 // let itemsLength = SidebarDB.Sidebar.items.length;
 // let submenuLength = SidebarDB.Sidebar.submenu.length;
 
