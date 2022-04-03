@@ -8,11 +8,12 @@
 
 1. React ( required )
 2. @mui ( required )
-3. @mui-icons
-4. axios
-5. Postman
-6. Airbnb ESLint Style
-7. Vercel ( if enough time )
+3. Tailwind-CSS
+4. @mui-icons
+5. axios
+6. Postman
+7. Airbnb ESLint Style
+8. Vercel ( if enough time )
 
 #### Additional Tool ( used outside coding ):
 
