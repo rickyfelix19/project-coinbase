@@ -1,4 +1,4 @@
-name: deploy to vercel website
+name: Vercel Action
 on:
   push:
     branches: [ master ]
