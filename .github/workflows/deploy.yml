@@ -10,9 +10,9 @@ jobs:
       #    ng build --prod
       - uses: amondnet/vercel-action@v20 #deploy
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+          vercel-token: 6BYMF6lfiyBkbncEhTccZYdp # Required
           github-token: ${{ secrets.GITHUB_TOKEN }} #Optional 
           vercel-args: '--prod' #Optional
-          vercel-org-id: ${{ secrets.ORG_ID}}  #Required
-          vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
+          vercel-org-id: 0OYYiGKCLlzbBL06WTKRLWC0  #Required
+          vercel-project-id: prj_ac6vpw3ZJ6Li2paiTZafxVJyW9Q5 #Required 
           working-directory: ./frontend/
