@@ -1,7 +1,9 @@
 # project-coinbase
 
 ```
-the name coinbase is not related to any company or any existing party. The idea of naming this project coinbase is because the data needed to be shown are cryptocurrency and one of the largest crypto in the market is Bitcoin. Hence why I named the project project-coinbase
+the name coinbase is not related to any company or any existing party. 
+The idea of naming this project coinbase is because the data needed to be shown are cryptocurrency and one of the largest crypto in the market is Bitcoin.
+Hence why I named the project project-coinbase
 ```
 
 ---
