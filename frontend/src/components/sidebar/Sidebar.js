@@ -1,4 +1,6 @@
 import React from 'react';
+import SidebarDB from './SidebarItems.json';
+
 import {
   ProSidebar,
   SidebarHeader,
@@ -9,27 +11,39 @@ import {
   MenuItem
 } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
+import SidebarStructure from './SidebarStructure';
 
-import SidebarItems from './SidebarItems.json';
+let sidebarLength = SidebarDB.Sidebar.length;
+// let itemsLength = SidebarDB.Sidebar.items.length;
+// let submenuLength = SidebarDB.Sidebar.submenu.length;
 
 function Sidebar() {
-  //   console.log(SidebarItems); json runs in DOM
-  //   console.log(SidebarItems.Sidebar);
+  //   console.log(SidebarDB); json runs in DOM
+  //   console.log(SidebarDB.Sidebar);
+
   return (
     <div>
       <ProSidebar>
         <SidebarHeader>Coin Gecko</SidebarHeader>
 
         <SidebarContent>
-          {SidebarItems.Sidebar[0].map((data, index) => {
-            return (
-              <div key={index}>
-                <SubMenu title="title">
-                  <MenuItem>{data.items}</MenuItem>
-                </SubMenu>
-              </div>
-            );
-          })}
+          <Menu>
+            {SidebarDB.Sidebar.map((data, index) => {
+              //   let x = 0;
+              return (
+                <div key={index}>
+                  <SubMenu title={data.title}>
+                    <MenuItem>{data.items}</MenuItem>
+                  </SubMenu>
+                </div>
+              );
+            })}
+
+            <hr />
+            <MenuItem>Portfolio</MenuItem>
+            <MenuItem>Login</MenuItem>
+            <MenuItem>Sign Up</MenuItem>
+          </Menu>
         </SidebarContent>
 
         {/* <SidebarContent>
@@ -53,11 +67,7 @@ function Sidebar() {
               <MenuItem>Derivatives</MenuItem>
             </SubMenu>
 
-            <hr />
-            <MenuItem>Portfolio</MenuItem>
-            <MenuItem>Login</MenuItem>
-            <MenuItem>Sign Up</MenuItem>
-          </Menu>
+
         </SidebarContent> */}
 
         <SidebarFooter>Ricky Felix</SidebarFooter>

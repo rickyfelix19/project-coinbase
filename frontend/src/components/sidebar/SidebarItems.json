@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Coins",
-      "item": [
+      "items": [
         "Market Cap Rank",
         "Recently Added",
         "Categories",
@@ -11,57 +11,41 @@
         "Large Movers",
         "High Volumes"
       ],
-      "submenu1": [
-        {
-          "title": "Derivatives",
-          "item": ["Large Movers", "High Volumes"]
-        }
-      ]
+      "subtitle": "Derivatives",
+      "subitems": ["Large Movers", "High Volumes"]
     },
     {
       "id": "2",
       "title": "Exchanges",
-      "item": ["Spot", "DEX", "Derivatives"]
+      "items": ["Spot", "DEX", "Derivatives"]
     },
 
     {
       "id": "3",
       "title": "NFT",
-      "item": ["NFT Floor Price", "NFT Related Coins"]
+      "items": ["NFT Floor Price", "NFT Related Coins"]
     },
     {
       "id": "4",
       "title": "Publications",
-      "item": ["Newsletter", "Crypto Reports", "Podcast", "Blog"],
-      "submenu1": [
-        {
-          "title": "Books",
-          "item": ["How to NFT", "How to Bitcoin", "How to DeFi"]
-        }
-      ],
-      "submenu2": [
-        {
-          "title": "Guides",
-          "item": ["CoinGecko Buzz", "Glossary"]
-        }
-      ]
+      "items": ["Newsletter", "Crypto Reports", "Podcast", "Blog"],
+      "subtitle": "Books",
+      "subitems": ["How to NFT", "How to Bitcoin", "How to DeFi"],
+      "subtitle2": "Guides",
+      "subitems2": ["CoinGecko Buzz", "Glossary"]
     },
     {
       "id": "5",
       "title": "Resources",
-      "item": [
+      "items": [
         "Earn Crypto",
         "Yield Farming",
         "Compare Coins",
         "Explore All Coins",
         "Bitcoin Halving"
       ],
-      "submenu1": [
-        {
-          "title": "Public Companies Treasury",
-          "item": ["Bitcoin Treasury", "Ethereum Treasury"]
-        }
-      ]
+      "subtitle": "Public Companies Treasury",
+      "subitems": ["Bitcoin Treasury", "Ethereum Treasury"]
     }
   ]
 }

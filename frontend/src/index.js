@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import Sidebar from './components/sidebar/Sidebar';
+import SidebarStructure from './components/sidebar/SidebarStructure';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <Sidebar />
+    {/* <SidebarStructure /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
