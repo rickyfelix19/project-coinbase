@@ -16,7 +16,7 @@ Hence why I named the project project-coinbase
 4. @mui-icons
 5. axios
 6. [Thunder Client (API Tester)](https://www.thunderclient.com/)
-7. Airbnb ESLint Prettier Linter
+7. [Airbnb ESLint Prettier Linter](https://dev.to/saurabhggc/add-eslint-prettier-and-airbnb-to-your-project-3mo8)
 8. Vercel ( for CI/CD using GitHub Actions )
 
 #### Additional Tool ( used outside coding ):
