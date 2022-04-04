@@ -47,3 +47,5 @@ Hence why I named the project project-coinbase
   -- Finish creating UI Component for market overview and trending
 - Tuesday 5:40 AM
   -- Finish generating table from API
+  
+## Tuesday 6:18 AM Push Production to Vercel and Stop Working on Master Branch
