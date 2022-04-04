@@ -47,7 +47,13 @@ function Overview(props) {
   ];
 
   return (
-    <div style={{ background: '#DFE0EB', paddingBottom: '15px' }}>
+    <div
+      style={{
+        background: '#DFE0EB',
+        paddingBottom: '15px',
+        borderRadius: '8px'
+      }}
+    >
       <div style={{ display: 'inline-flex', marginLeft: '20px' }}>
         <h2>Market Overview </h2>
         <Button
