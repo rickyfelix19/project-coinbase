@@ -45,3 +45,5 @@ Hence why I named the project project-coinbase
 - Monday, 1:32
   -- Start working again
   -- Finish creating UI Component for market overview and trending
+- Tuesday 5:40 AM
+  -- Finish generating table from API
