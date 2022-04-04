@@ -22,7 +22,8 @@ Hence why I named the project project-coinbase
 #### Additional Tool ( used outside coding ):
 
 1. Figma ( for coloring and quick mi-fi mockups ), you can check design [here](https://www.figma.com/file/qPXOFeTqLm5U5rfEQDHbsY/TableBoard?node-id=0%3A1)
-   Otherwise, you can check prototype image [here](./MiFI.png)
+![](./MiFI.png)
+
 2. GitHub Project's Kanban Board ( for Task Management ), you can check the board [here](https://github.com/rickyfelix19/project-coinbase/projects/1)
 3. Website Production, go to production page [here](https://project-coinbase.vercel.app/)
 
