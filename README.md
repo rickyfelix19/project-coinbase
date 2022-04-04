@@ -42,3 +42,6 @@ Hence why I named the project project-coinbase
   
 - Monday, 2:42 AM
   -- Setup Pipeline and GitHub Actions for Vercel CI/CD
+  
+- Monday, 1:32
+  -- Start working again
