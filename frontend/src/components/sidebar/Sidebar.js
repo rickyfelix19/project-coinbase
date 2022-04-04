@@ -21,7 +21,15 @@ function Sidebar() {
   //   console.log(SidebarDB.Sidebar);
 
   return (
-    <div>
+    <div
+      style={{
+        height: '100%',
+        left: 'auto',
+        width: 'auto',
+        position: 'absolute'
+        // transform: 'translateY(-19.92px)'
+      }}
+    >
       <ProSidebar>
         <SidebarHeader>Coin Gecko</SidebarHeader>
 
