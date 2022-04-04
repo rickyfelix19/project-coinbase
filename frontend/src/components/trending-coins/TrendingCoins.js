@@ -1,11 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Box, Card, CardHeader, CardContent, Button } from '@mui/material/';
-import HelpIcon from '@mui/icons-material/Help';
+import CardCoins from './CardCoins';
 
 function TrendingCoins(props) {
   // API URL
   const trendingURL = 'https://api.coingecko.com/api/v3/search/trending/';
+
+  const [trendingCard, setTrendingCard] = useState('');
+
+  useEffect(() => {
+    getAllTrendingCards();
+  }, []);
+
+  const getAllTrendingCards = () => {
+    axios
+      .get(trendingURL)
+      .then((response) => {
+        // setTrendingCard(response.data.coins);
+        // console.log(response.data.coins);
+        const allData = response.data.coins;
+        setTrendingCard(allData);
+      })
+      .catch((err) => console.error(`Error: ${err}`));
+  };
+  // if (!trendingCard) return null;
+  // console.log(trendingCard); // arrays of 7, just map through this
 
   return (
     <div
@@ -16,36 +35,10 @@ function TrendingCoins(props) {
         borderRadius: '8px'
       }}
     >
-      <div style={{ display: 'inline-flex', marginLeft: '20px' }}>
+      <div style={{ display: 'flex', marginLeft: '20px' }}>
         <h2>Trending Coins </h2>
       </div>
-
-      {/* trending Cards */}
-      <div
-        style={{
-          display: 'flex',
-          margin: '0px 20px',
-          justifyContent: 'space-between'
-        }}
-      >
-        {/* {cardTitle.map((data) => { */}
-        {/* return ( */}
-        <div>
-          <Card
-            style={{
-              background: '#DDE2FF',
-              width: 'auto',
-              borderRadius: '10px'
-              //marginLeft: '17px' // flex justify content
-            }}
-          >
-            <CardHeader title="title" />
-            <CardContent>show cards</CardContent>
-          </Card>
-        </div>
-        {/* ); */}
-        {/* })} */}
-      </div>
+      <CardCoins trendingCard={trendingCard} />
     </div>
   );
 }

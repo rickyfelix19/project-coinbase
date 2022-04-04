@@ -26,7 +26,7 @@ function Sidebar() {
         height: '100%',
         left: 'auto',
         width: 'auto',
-        position: 'absolute'
+        position: 'fixed'
         // transform: 'translateY(-19.92px)'
       }}
     >
