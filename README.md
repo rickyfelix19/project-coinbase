@@ -1,7 +1,7 @@
 # project-coinbase
 
 ```
-the name coinbase is not related to any company or any existing party. 
+the name coinbase is not related to any company or any existing party.
 The idea of naming this project coinbase is because the data needed to be shown are cryptocurrency and one of the largest crypto in the market is Bitcoin.
 Hence why I named the project project-coinbase
 ```
@@ -15,7 +15,7 @@ Hence why I named the project project-coinbase
 3. [React-Pro-Sidebar](https://www.npmjs.com/package/react-pro-sidebar)
 4. @mui-icons
 5. axios
-6. Postman
+6. [Thunder Client (API Tester)](https://www.thunderclient.com/)
 7. Airbnb ESLint Prettier Linter
 8. Vercel ( for CI/CD using GitHub Actions )
 
@@ -39,10 +39,8 @@ Hence why I named the project project-coinbase
   -- Started Working on Code / Design
   -- Finish Design MiFI
   -- Finish React Sidebar with minor bugs
-  
 - Monday, 2:42 AM
   -- Setup Pipeline and GitHub Actions for Vercel CI/CD
-  
 - Monday, 1:32
   -- Start working again
-  -- Finish creating UI Component for market overview and trending  
+  -- Finish creating UI Component for market overview and trending
